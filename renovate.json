@@ -3,6 +3,9 @@
   "extends": ["config:recommended"],
   "mode": "auto",
   "dependencyDashboardApproval": false,
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "branchConcurrentLimit": 0,
   "platformAutomerge": true,
   "packageRules": [
     {
