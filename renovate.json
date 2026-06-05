@@ -9,6 +9,10 @@
   "platformAutomerge": true,
   "packageRules": [
     {
+      "matchUpdateTypes": ["minor", "major"],
+      "enabled": false
+    },
+    {
       "matchUpdateTypes": ["patch"],
       "automerge": true
     }
